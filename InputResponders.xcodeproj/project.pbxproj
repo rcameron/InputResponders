@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD6CED113722FE00049627E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD6CED013722FE00049627E /* UIKit.framework */; };
+		9BD6CED313722FE00049627E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD6CED213722FE00049627E /* Foundation.framework */; };
+		9BD6CED513722FE00049627E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD6CED413722FE00049627E /* CoreGraphics.framework */; };
+		9BD6CEDB13722FE00049627E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6CED913722FE00049627E /* InfoPlist.strings */; };
+		9BD6CEDE13722FE00049627E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6CEDD13722FE00049627E /* main.m */; };
+		9BD6CEE113722FE00049627E /* InputRespondersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6CEE013722FE00049627E /* InputRespondersAppDelegate.m */; };
+		9BD6CEED1372322F0049627E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6CEEB1372322F0049627E /* MainViewController.m */; };
+		9BD6CEEE1372322F0049627E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6CEEC1372322F0049627E /* MainViewController.xib */; };
+		9BF31A5E13723E32000C1A33 /* PickerResponderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF31A5D13723E32000C1A33 /* PickerResponderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BD6CECC13722FE00049627E /* InputResponders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputResponders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD6CED013722FE00049627E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BD6CED213722FE00049627E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BD6CED413722FE00049627E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BD6CED813722FE00049627E /* InputResponders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InputResponders-Info.plist"; sourceTree = "<group>"; };
+		9BD6CEDA13722FE00049627E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BD6CEDC13722FE00049627E /* InputResponders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InputResponders-Prefix.pch"; sourceTree = "<group>"; };
+		9BD6CEDD13722FE00049627E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BD6CEDF13722FE00049627E /* InputRespondersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputRespondersAppDelegate.h; sourceTree = "<group>"; };
+		9BD6CEE013722FE00049627E /* InputRespondersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputRespondersAppDelegate.m; sourceTree = "<group>"; };
+		9BD6CEEA1372322F0049627E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9BD6CEEB1372322F0049627E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9BD6CEEC1372322F0049627E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9BF31A5C13723E32000C1A33 /* PickerResponderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerResponderView.h; sourceTree = "<group>"; };
+		9BF31A5D13723E32000C1A33 /* PickerResponderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerResponderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD6CEC913722FE00049627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6CED113722FE00049627E /* UIKit.framework in Frameworks */,
+				9BD6CED313722FE00049627E /* Foundation.framework in Frameworks */,
+				9BD6CED513722FE00049627E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD6CEC113722FE00049627E = {
+			isa = PBXGroup;
+			children = (
+				9BD6CED613722FE00049627E /* InputResponders */,
+				9BD6CECF13722FE00049627E /* Frameworks */,
+				9BD6CECD13722FE00049627E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD6CECD13722FE00049627E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD6CECC13722FE00049627E /* InputResponders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD6CECF13722FE00049627E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD6CED013722FE00049627E /* UIKit.framework */,
+				9BD6CED213722FE00049627E /* Foundation.framework */,
+				9BD6CED413722FE00049627E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BD6CED613722FE00049627E /* InputResponders */ = {
+			isa = PBXGroup;
+			children = (
+				9BF31A5B13723DCE000C1A33 /* ResponderViews */,
+				9BD6CEEA1372322F0049627E /* MainViewController.h */,
+				9BD6CEEB1372322F0049627E /* MainViewController.m */,
+				9BD6CEEC1372322F0049627E /* MainViewController.xib */,
+				9BD6CEDF13722FE00049627E /* InputRespondersAppDelegate.h */,
+				9BD6CEE013722FE00049627E /* InputRespondersAppDelegate.m */,
+				9BD6CED713722FE00049627E /* Supporting Files */,
+			);
+			path = InputResponders;
+			sourceTree = "<group>";
+		};
+		9BD6CED713722FE00049627E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BD6CED813722FE00049627E /* InputResponders-Info.plist */,
+				9BD6CED913722FE00049627E /* InfoPlist.strings */,
+				9BD6CEDC13722FE00049627E /* InputResponders-Prefix.pch */,
+				9BD6CEDD13722FE00049627E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BF31A5B13723DCE000C1A33 /* ResponderViews */ = {
+			isa = PBXGroup;
+			children = (
+				9BF31A5C13723E32000C1A33 /* PickerResponderView.h */,
+				9BF31A5D13723E32000C1A33 /* PickerResponderView.m */,
+			);
+			path = ResponderViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD6CECB13722FE00049627E /* InputResponders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD6CEE713722FE00049627E /* Build configuration list for PBXNativeTarget "InputResponders" */;
+			buildPhases = (
+				9BD6CEC813722FE00049627E /* Sources */,
+				9BD6CEC913722FE00049627E /* Frameworks */,
+				9BD6CECA13722FE00049627E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputResponders;
+			productName = InputResponders;
+			productReference = 9BD6CECC13722FE00049627E /* InputResponders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD6CEC313722FE00049627E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9BD6CEC613722FE00049627E /* Build configuration list for PBXProject "InputResponders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BD6CEC113722FE00049627E;
+			productRefGroup = 9BD6CECD13722FE00049627E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD6CECB13722FE00049627E /* InputResponders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD6CECA13722FE00049627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6CEDB13722FE00049627E /* InfoPlist.strings in Resources */,
+				9BD6CEEE1372322F0049627E /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD6CEC813722FE00049627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6CEDE13722FE00049627E /* main.m in Sources */,
+				9BD6CEE113722FE00049627E /* InputRespondersAppDelegate.m in Sources */,
+				9BD6CEED1372322F0049627E /* MainViewController.m in Sources */,
+				9BF31A5E13723E32000C1A33 /* PickerResponderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BD6CED913722FE00049627E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD6CEDA13722FE00049627E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD6CEE513722FE00049627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BD6CEE613722FE00049627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9BD6CEE813722FE00049627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InputResponders/InputResponders-Prefix.pch";
+				INFOPLIST_FILE = "InputResponders/InputResponders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BD6CEE913722FE00049627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InputResponders/InputResponders-Prefix.pch";
+				INFOPLIST_FILE = "InputResponders/InputResponders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD6CEC613722FE00049627E /* Build configuration list for PBXProject "InputResponders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD6CEE513722FE00049627E /* Debug */,
+				9BD6CEE613722FE00049627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD6CEE713722FE00049627E /* Build configuration list for PBXNativeTarget "InputResponders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD6CEE813722FE00049627E /* Debug */,
+				9BD6CEE913722FE00049627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD6CEC313722FE00049627E /* Project object */;
+}
