@@ -1,0 +1,1 @@
+InputResponders is an iPhone ObjC project that attaches various input views such as UIPickerViews to a UIView. By overriding UIResponder's inputView and inputAccessoryView properties, all animations are handled.
